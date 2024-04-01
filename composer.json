@@ -8,11 +8,13 @@
         "security"
     ],
     "require": {
-        "php": ">=8.2"
+        "php": ">=8.2",
+        "beberlei/assert": "^3.3",
+        "phpunit/phpunit": "^9.6"
     },
     "autoload": {
         "psr-4": {
-            "Blocks\\Security\\":"src/class"
+            "Blocks\\Security\\": "src/class"
         }
     },
     "authors": [
